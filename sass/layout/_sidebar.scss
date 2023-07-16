@@ -1,0 +1,76 @@
+.nav_menu {
+  padding: 30px 0 0 0;
+}
+.nav_menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.nav_menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  width: 100%;
+}
+.nav_menu a,
+.nav_menu a:focus {
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  border-radius: 10px;
+  stroke: #6f7180;
+  fill: #6f7180;
+}
+.nav_menu a i,
+.nav_menu a:focus i {
+  font-size: 24px;
+  padding-right: 8px;
+}
+.nav_menu a:hover,
+.nav_menu .active,
+.nav_menu .active:focus,
+.nav_menu li:hover > a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #5932ea;
+  fill: #fff;
+  stroke: #fff;
+}
+.nav_menu_link_svg {
+  margin-right: 14px;
+}
+.nav_menu_link {
+  display: flex;
+  justify-content: space-between;
+  color: #6f7180;
+  text-decoration: none;
+}
+
+.mobileNavToggle {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  z-index: 9998;
+  border: 0;
+  font-size: 24px;
+  transition: all 0.4s;
+  outline: none !important;
+  background-color: #000000;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.mobileNavActive {
+  overflow: hidden;
+}
+.mobileNavActive #header {
+  left: 0;
+}
