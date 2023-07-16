@@ -1,7 +1,20 @@
+:root {
+  // --brend-color: #2196f3;
+  // --primery-text-color: #212121;
+  // --secondary-text-color: #757575;
+  // --color-text-dark-theme: #ffffff;
+  // --text-paragraph: 'Roboto', sans-serif;
+  // --transition-dur-fun: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --hover_color: #5932ea;
+  --body_bg_color: #fafbff;
+  --fill_color: #6f7180;
+  --light_color: #fff;
+  --dark_color: #000;
+}
 body {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   color: #272829;
-  background-color: #fafbff;
+  background-color: var(--body_bg_color);
 }
 
 h1,
@@ -10,11 +23,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .button {
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -45,7 +58,6 @@ h6 {
 
 .link {
   text-decoration: none;
-  color: #000000;
 }
 
 .bottom-section {

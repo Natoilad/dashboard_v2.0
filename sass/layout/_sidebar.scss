@@ -20,8 +20,8 @@
   transition: 0.3s;
   font-size: 15px;
   border-radius: 10px;
-  stroke: #6f7180;
-  fill: #6f7180;
+  stroke: var(--fill_color);
+  fill: var(--fill_color);
 }
 .nav_menu a i,
 .nav_menu a:focus i {
@@ -33,10 +33,10 @@
 .nav_menu .active:focus,
 .nav_menu li:hover > a {
   text-decoration: none;
-  color: #fff;
-  background-color: #5932ea;
-  fill: #fff;
-  stroke: #fff;
+  color: var(--light_color);
+  background-color: var(--hover_color);
+  fill: var(--light_color);
+  stroke: var(--light_color);
 }
 .nav_menu_link_svg {
   margin-right: 14px;
@@ -44,7 +44,7 @@
 .nav_menu_link {
   display: flex;
   justify-content: space-between;
-  color: #6f7180;
+  color: var(--fill_color);
   text-decoration: none;
 }
 
@@ -57,8 +57,8 @@
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #000000;
-  color: #fff;
+  background-color: var(--dark_color);
+  color: var(--light_color);
   width: 40px;
   height: 40px;
   display: inline-flex;
