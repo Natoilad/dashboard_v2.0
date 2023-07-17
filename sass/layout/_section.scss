@@ -75,12 +75,12 @@
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
   ::placeholder {
-    color: #b5b7c0;
+    color: var(--text-paragraph);
   }
 }
 .main_dashbord_search_input:focus-visible {
-  color: black;
-  border-color: #00b087;
+  color: var(--dark_color);
+  border-color: var(--enable_btn_accent);
 }
 .main_dashbord_search_btn {
   position: relative;
@@ -105,11 +105,11 @@ table {
   width: 100%;
 }
 tr {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--table_line);
 }
 th {
   text-align: start;
-  color: #b5b7c0;
+  color: var(--text-paragraph);
   font-weight: 500;
 }
 td {
@@ -122,7 +122,7 @@ td {
   align-items: flex-end;
 }
 .main_dashbord_bottom_data {
-  color: #b5b7c0;
+  color: var(--text-paragraph);
   margin: 0;
 }
 .main_dashbord_pagination {
@@ -138,7 +138,7 @@ td {
   width: 25px;
   height: 24px;
   background: #f5f5f5;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--table_line);
   border-radius: 4px;
   color: #404b52;
   font-size: 12px;

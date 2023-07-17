@@ -1,4 +1,8 @@
 :root {
+  --table_line: #eeeeee;
+  --text-paragraph: #b5b7c0;
+  --disabled_btn_accent: #df0404;
+  --enable_btn_accent: #00b087;
   --hover_color: #5932ea;
   --body_bg_color: #fafbff;
   --fill_color: #6f7180;
@@ -29,9 +33,9 @@ h6 {
   line-height: 21px;
   padding: 4px 18px;
   background: rgba(22, 192, 152, 0.38);
-  border: 1px solid #00b087;
+  border: 1px solid var(--enable_btn_accent);
   border-radius: 4px;
-  color: #00b087;
+  color: var(--enable_btn_accent);
   cursor: pointer;
 }
 .button:hover {
@@ -40,8 +44,8 @@ h6 {
 
 .main_dashbord_active_btn {
   background: #ffc5c5;
-  border: 1px solid #df0404;
-  color: #df0404;
+  border: 1px solid var(--disabled_btn_accent);
+  color: var(--disabled_btn_accent);
   padding: 4px 12px;
 }
 
@@ -329,12 +333,12 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .main_dashbord_search_input ::placeholder {
-  color: #b5b7c0;
+  color: var(--text-paragraph);
 }
 
 .main_dashbord_search_input:focus-visible {
-  color: black;
-  border-color: #00b087;
+  color: var(--dark_color);
+  border-color: var(--enable_btn_accent);
 }
 
 .main_dashbord_search_btn {
@@ -362,12 +366,12 @@ table {
 }
 
 tr {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid var(--table_line);
 }
 
 th {
   text-align: start;
-  color: #b5b7c0;
+  color: var(--text-paragraph);
   font-weight: 500;
 }
 
@@ -382,7 +386,7 @@ td {
 }
 
 .main_dashbord_bottom_data {
-  color: #b5b7c0;
+  color: var(--text-paragraph);
   margin: 0;
 }
 
@@ -400,7 +404,7 @@ td {
   width: 25px;
   height: 24px;
   background: #f5f5f5;
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--table_line);
   border-radius: 4px;
   color: #404b52;
   font-size: 12px;
