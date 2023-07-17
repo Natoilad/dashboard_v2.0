@@ -244,7 +244,7 @@ p {
   width: 100vh;
   height: 100%;
   background-color: var(--body_bg_color);
-  padding: 50px;
+  padding: 40px;
 }
 @media (min-width: 768px) {
   #main {
@@ -286,21 +286,21 @@ p {
 }
 @media screen and (min-width: 1199px) {
   .main_dashbord {
-    padding: 30px 44px 20px 38px;
+    padding: 30px 44px 40px 38px;
     width: 968px;
     margin-left: 0;
   }
 }
 
 .welcome_user {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .main_dashbord_head {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-bottom: 29px;
+  padding-bottom: 40px;
 }
 
 .main_dashbord_customers_title {
